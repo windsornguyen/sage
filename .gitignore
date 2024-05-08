@@ -1,0 +1,14 @@
+.env
+*.jsonl
+*.json
+checkpoints/
+
+# datasets for details and comments
+/generator/comments/*.jsonl
+/generator/comments/*.jsonl
+/generator/details/*.jsonl
+/generator/details/*.jsonl
+
+# data from the hoagieplan database
+/generator/course_comments.json
+/generator/course_details.json

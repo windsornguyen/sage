@@ -1,0 +1,19 @@
+# The ID of the dataset you created above.
+dataset: llama3-sage-finetune
+
+conversation: {}
+
+# The Hugging Face model name of the base model.
+base_model: meta-llama/Meta-Llama-3-70B-Instruct
+
+# Additional tuning options
+display_name: "Sage-Llama3 Finetune"
+epochs: 1.0
+learning_rate: 5e-4
+model_id: sage-llama3
+# job_id: sage-llama3-finetune
+
+# Track tuning progress with W&B
+wandb_entity: windsornguyen
+wandb_api_key: 17dce35b188763800b6e9a443a761a1e713d87ab
+wandb_project: compass-finetune
